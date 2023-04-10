@@ -15,4 +15,5 @@ the app is programmed in java/xml
 ![Screenshot fromadmin drawer](https://user-images.githubusercontent.com/115100521/230889703-019d2216-1912-44d6-bee8-e9cd732589cb.png)
 ![Screenshot forgot password](https://user-images.githubusercontent.com/115100521/230889721-75038b85-16c4-4a28-8e1a-c20c03c1d2e6.png)
 ![Screenshot from issued permits list](https://user-images.githubusercontent.com/115100521/230889922-6110090c-5f43-4566-ada2-7d718a3a7402.png)
+
  those are just but sample layouts of this application
