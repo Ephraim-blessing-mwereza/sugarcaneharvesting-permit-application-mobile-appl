@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".farmer.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/top_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/bg_view"/>
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/main_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:title=""
+                android:titleTextColor="@color/white">
+
+                <ImageView
+                    android:id="@+id/toolbar_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_menu_24"
+                    android:layout_gravity="start"
+                    android:padding="10dp"
+                    />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/nav_header_image2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@color/lavender"
+                    android:contentDescription="@string/profilepicture"
+                    android:src="@drawable/baseline_person_24"
+                    app:civ_border_color="@color/lavender"
+                    app:civ_border_width="2dp" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <TextView
+                android:id="@+id/dashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Farmer's dashboard"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:layout_below="@id/main_toolbar"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_below="@id/top_view"
+            android:id="@+id/mainLogo"
+            android:layout_width="wrap_content"
+            android:src="@drawable/dashboard_logo"
+            android:layout_height="360dp"/>
+        <TextView
+            android:id="@+id/tvSlogan"
+            android:layout_below="@id/mainLogo"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold_italic"
+            android:padding="4dp"
+            android:text='@string/plant_cane_harvest_money'
+            android:textColor="@color/lavender"
+            android:textFontWeight="500"
+            android:textSize="24dp"
+            android:textStyle="italic"
+            tools:ignore="MissingConstraints" />
+
+
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:id="@+id/navigationView"
+        android:layout_gravity="start"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/navigation_drawer_menu"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

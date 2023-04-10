@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_apply_permit"
+            android:background="?attr/colorButtonNormal"
+            android:title="@string/apply_permit" />
+        <item
+            android:id="@+id/nav_issued_permit"
+            android:background="?attr/colorButtonNormal"
+            android:title="@string/issued_permit" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:background="?attr/colorButtonNormal"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:background="?attr/colorButtonNormal"
+            android:icon="@drawable/ic_logout" />
+    </group>
+
+</menu>

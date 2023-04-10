@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">login-register-firebase2</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="logout">logout</string>
+    <string name="register_as_harvesting_manager">Register as Harvesting Manager</string>
+    <string name="register_as_farmer">Register As Farmer</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="welcome_to_harvesting_manager_dashboard">Welcome to harvesting manager dashboard</string>
+    <string name="welcome_to_farmers_dashboard">Welcome to Farmers\' Dashboard!</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="profile_picture">Profile_Picture</string>
+    <string name="edit_profile_picture">Edit_Profile_Picture</string>
+    <string name="profilepicture">ProfilePicture</string>
+    <string name="apply_permit">Apply Permit</string>
+    <string name="issued_permit">Issued Permit</string>
+    <string name="about_us">About us</string>
+    <string name="enter_field_number">Enter Field Number</string>
+    <string name="cane_age">Cane Age</string>
+    <string name="cane_age_in_months">Cane Age in Months</string>
+    <string name="crop_details">Crop Details</string>
+    <string name="cane_stage">cane Stage</string>
+    <string name="the_estimated_harvest_in_tonnes">The estimated harvest in tonnes</string>
+    <string name="payment_credentials">Payment Credentials</string>
+    <string name="bank_account_number">Bank Account Number</string>
+    <string name="collection_date">Collection Date</string>
+    <string name="field_credentials">Field Credentials</string>
+    <string name="preferred_cane_collection_date">Preferred Cane Collection Date</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="area">Area</string>
+    <string name="acreage">Acreage</string>
+    <string name="enter_your_sub_location">Enter your sub-location</string>
+    <string name="issued_permits">Issued Permits</string>
+    <string name="issue_permit">Issue Permit</string>
+    <string name="upload_profile_picture">Upload Profile Picture</string>
+    <string-array name="crop_rotation_types">
+        <item>plant crop</item>
+        <item>second ratoon</item>
+        <item>third ratoon</item>
+        <item>fourth ratoon</item>
+
+    </string-array>
+
+    <string-array name="bank_name">
+        <item>Co-operative bank</item>
+        <item>kenya Commercial Bank</item>
+        <item>Equity Bank</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="farmers_sugarcane_harvesting_permit_app">Farmers Sugarcane Harvesting Permit App</string>
+    <string name="permit_application_logo">Permit Application Logo</string>
+    <string name="plant_cane_harvest_money">Plant Cane - Harvest Money</string>
+</resources>
